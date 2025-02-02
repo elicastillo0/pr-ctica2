@@ -7,8 +7,12 @@ function getWelcomeMessage (message) {
     if(message) {
         console.log(message + " " + user);
     } else {
-        console.log("Hola " + user);
+        var message = "Hola ";
+        console.log(message + user);
     }
+    console.log(message);
+    admin = "Elí";
 }
 
 getWelcomeMessage();
+console.log(admin);
