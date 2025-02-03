@@ -1,4 +1,5 @@
-var user;
+let user;
+const defaultMessage = "Hola";
 user = "Elí";
 
 console.log(user);
@@ -7,12 +8,11 @@ function getWelcomeMessage (message) {
     if(message) {
         console.log(message + " " + user);
     } else {
-        var message = "Hola ";
-        console.log(message + user);
+        let auxVariable = "Ejemplo";
+        console.log(defaultMessage + user);
     }
-    console.log(message);
+    console.log(auxVariable); // Error
     admin = "Elí";
 }
 
 getWelcomeMessage();
-console.log(admin);
