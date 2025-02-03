@@ -14,4 +14,4 @@ function getWelcomeMessage (message) {
     console.log(auxVariable); // Error
 }
 
-getWelcomeMessage();
+getWelcomeMessage(); 
