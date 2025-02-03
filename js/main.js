@@ -12,7 +12,6 @@ function getWelcomeMessage (message) {
         console.log(defaultMessage + user);
     }
     console.log(auxVariable); // Error
-    admin = "Elí";
 }
 
 getWelcomeMessage();
